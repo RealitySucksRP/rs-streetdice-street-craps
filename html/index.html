@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>RS Street Dice</title>
+</head>
+<body>
+    <div id="app" class="hidden">
+        <div class="grain"></div>
+
+        <div class="panel">
+
+            <div class="tape tape-tl"></div>
+            <div class="tape tape-tr"></div>
+
+            <div class="header">
+                <div class="eyebrow">REALITY SUCKS RP</div>
+                <h1 class="title">
+                    <span class="title-letter">S</span><span class="title-letter">T</span><span class="title-letter">R</span><span class="title-letter">E</span><span class="title-letter">E</span><span class="title-letter">T</span>
+                    <span class="title-gap"></span>
+                    <span class="title-letter">D</span><span class="title-letter">I</span><span class="title-letter">C</span><span class="title-letter">E</span>
+                </h1>
+                <div class="stamp">BANK</div>
+                <button id="close" class="close-btn" aria-label="close">X</button>
+            </div>
+
+            <div id="hype" class="hype">
+                <div class="hype-tag">HYPE</div>
+                <div id="hypeText" class="hype-text">Bank walking in...</div>
+            </div>
+
+            <div class="status-row">
+                <div class="status-card">
+                    <span class="status-label">ACTION</span>
+                    <b id="state" class="status-value">waiting</b>
+                </div>
+                <div class="status-card">
+                    <span class="status-label">POINT</span>
+                    <b id="point" class="status-value">-</b>
+                </div>
+                <div class="status-card status-money">
+                    <span class="status-label">POT</span>
+                    <b id="pot" class="status-value">$0</b>
+                    <div id="cashStack" class="cash-stack"></div>
+                </div>
+            </div>
+
+            <div class="shooter-strip">
+                <span class="shooter-label">SHOOTER</span>
+                <b id="shooterName">-</b>
+                <span id="coverStatus" class="cover-status">waiting on money</span>
+            </div>
+            <div id="flowHint" class="flow-hint">shooter rides, players fade</div>
+            <div class="play-notes">
+                <div id="turnNote" class="turn-note">WAITING FOR THE BANK</div>
+                <div id="ruleNote" class="rule-note">Come-out: 7/11 wins for RIDE. 2/3/12 wins for FADE. Any other number sets the point.</div>
+            </div>
+
+            <div class="totals">
+                <div class="totals-row">
+                    <span class="totals-tag with-tag">RIDE</span>
+                    <span id="withTotal" class="totals-amount">$0</span>
+                </div>
+                <div class="totals-row">
+                    <span class="totals-tag against-tag">FADE</span>
+                    <span id="againstTotal" class="totals-amount">$0</span>
+                </div>
+            </div>
+
+            <div class="dice-table">
+                <div class="dice-stage">
+                    <div id="die1" class="die3d die-static" data-face="1">
+                        <div class="face face-1"><span class="pip"></span></div>
+                        <div class="face face-2"><span class="pip"></span><span class="pip"></span></div>
+                        <div class="face face-3"><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+                        <div class="face face-4"><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+                        <div class="face face-5"><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+                        <div class="face face-6"><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+                    </div>
+                    <div id="die2" class="die3d die-static" data-face="1">
+                        <div class="face face-1"><span class="pip"></span></div>
+                        <div class="face face-2"><span class="pip"></span><span class="pip"></span></div>
+                        <div class="face face-3"><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+                        <div class="face face-4"><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+                        <div class="face face-5"><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+                        <div class="face face-6"><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span><span class="pip"></span></div>
+                    </div>
+                </div>
+                <div id="total" class="total-strip">ROLL PENDING</div>
+            </div>
+
+            <div class="bet-row">
+                <input id="amount" type="number" min="1" placeholder="amount" />
+                <button class="bet-btn with" data-side="with">RIDE</button>
+                <button class="bet-btn against" data-side="against">FADE</button>
+            </div>
+
+            <div class="ledger">
+                <div class="ledger-tag">MONEY ON THE PAVEMENT</div>
+                <div id="ledgerList" class="ledger-list">
+                    <div class="ledger-empty">no bets yet</div>
+                </div>
+            </div>
+
+            <div class="actions">
+                <button id="join" class="action-btn join-btn">JOIN</button>
+                <button id="roll" class="action-btn roll-btn">ROLL</button>
+                <button id="end" class="action-btn end-btn">END</button>
+            </div>
+
+            <div id="result" class="result"></div>
+
+            <div class="hint">/streetdice /sdjoin /sdbet [amt] [with|against] /sdroll /sdend /sdmenu</div>
+        </div>
+
+        <audio id="bankAudio" preload="auto"></audio>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

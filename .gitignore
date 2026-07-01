@@ -1,0 +1,24 @@
+# Generated packages
+*.zip
+*.rar
+*.7z
+
+# Logs and runtime noise
+*.log
+logs/
+cache/
+tmp/
+temp/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local backup files
+*.bak
+*.backup
+*_backup/
+*_backup_*/
