@@ -4,6 +4,8 @@
 
 **Support RealitySucksRP:** [https://ko-fi.com/realitysucksrp](https://ko-fi.com/realitysucksrp)
 
+![RS StreetDice scene](artwork/rs-streetdice-scene.png)
+
 RS StreetDice is a mobile street craps roleplay resource for FiveM. Players can start a dice circle almost anywhere, wait for The Bank to walk in, place RIDE or FADE action, and shoot server-authoritative dice with visible animations, crowd reactions, and clear UI guidance.
 
 This resource is for fictional roleplay using in-game currency only. It is not intended for real-life gambling, real-money betting, cryptocurrency wagering, cash-out systems, or illegal gambling activity.
