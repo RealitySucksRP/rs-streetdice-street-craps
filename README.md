@@ -216,8 +216,10 @@ rs-streetdice/
 
 --------------------------------------------------------------
 
-## License
+## Open Source
 
-This resource is a paid Reality Sucks RP / William Brito product. Purchase grants the buyer permission to use the resource on their own FiveM server according to the product terms on the purchase page.
+This resource is open source. You are encouraged to study it, fork it, improve it, and build new street-dice features on top of it.
 
-Redistribution, resale, leaking, reuploading, sharing paid files, or claiming this work as your own is not allowed.
+If you use this project or expand it, please credit Reality Sucks RP / William Brito and link back to the original repository when possible.
+
+Community improvements are welcome: new UI themes, extra animations, better framework bridges, cleaner rules options, sound packs, and gameplay polish are all good directions.
