@@ -10,6 +10,8 @@ RS StreetDice is a mobile street craps roleplay resource for FiveM. Players can 
 
 This resource is for fictional roleplay using in-game currency only. It is not intended for real-life gambling, real-money betting, cryptocurrency wagering, cash-out systems, or illegal gambling activity.
 
+CHECK OUT MY TEBEX STORE: https://reality-sucks-rp-webstore.tebex.io/
+
 --------------------------------------------------------------
 
 ## Gameplay
