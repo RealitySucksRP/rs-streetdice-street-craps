@@ -1,5 +1,13 @@
 # RS StreetDice — Street Craps RP
 
+<!-- RS community links -->
+
+Free FiveM street-craps roleplay with a Bank NPC, server-authoritative dice, animations and crowd reactions. Fictional in-game currency only.
+
+[Website](https://realitysucksrp.github.io/) | [Tebex Store](https://reality-sucks-rp-webstore.tebex.io/) | [Free Scripts](https://reality-sucks-rp-webstore.tebex.io/category/free-scripts) | [Discord](https://discord.gg/e9V3rPHySx) | [YouTube](https://www.youtube.com/@RealitySucksRP)
+
+<!-- /RS community links -->
+
 ![RS StreetDice scene](artwork/rs-streetdice-scene.png)
 
 <p align="center">
