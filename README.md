@@ -105,11 +105,6 @@ If you use or expand it, please credit **Reality Sucks RP / William Brito** and 
 
 I love making scripts and running wild in GTA, but I also enjoy building complete servers. I use tested RealitySucksRP systems and configure the build around the owner's gameplay, framework, economy, theme and direction.
 
-- **QBCore Shell — $500**
-- **Zombie Server — $700**
-- **Full RP Server — $850**
-- **30 days of Discord setup/support included**
-
 **Website:** https://realitysucksrp.github.io/
 
 **Tebex:** https://reality-sucks-rp-webstore.tebex.io/
