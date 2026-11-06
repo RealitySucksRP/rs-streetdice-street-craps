@@ -99,7 +99,7 @@ Standalone mode is intended for testing. Live economy servers should use a suppo
 
 This resource is open source. You are encouraged to study it, fork it, improve it and build new RP features on top of it.
 
-If you use or expand it, please credit **Reality Sucks RP / William Brito** and link back to the original repository when possible.
+If you use or expand it, please credit **RealitySucksRP** and link back to the original repository when possible.
 
 ## Complete FiveM Servers For Sale
 
