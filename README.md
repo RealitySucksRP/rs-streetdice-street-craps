@@ -1,27 +1,42 @@
-# RS StreetDice — Street Craps RP
-
-<!-- RS community links -->
-
-Free FiveM street-craps roleplay with a Bank NPC, server-authoritative dice, animations and crowd reactions. Fictional in-game currency only.
-
-[Website](https://realitysucksrp.github.io/) | [Tebex Store](https://reality-sucks-rp-webstore.tebex.io/) | [Free Scripts](https://reality-sucks-rp-webstore.tebex.io/category/free-scripts) | [Discord](https://discord.gg/e9V3rPHySx) | [YouTube](https://www.youtube.com/@RealitySucksRP)
-
-<!-- /RS community links -->
-
-![RS StreetDice scene](artwork/rs-streetdice-scene.png)
+# RS StreetDice — FiveM Street Craps Roleplay
 
 <p align="center">
-  <a href="https://reality-sucks-rp-webstore.tebex.io/category/free-scripts"><img src="https://img.shields.io/badge/BROWSE-FREE%20SCRIPTS-ff6a00?style=for-the-badge" alt="Browse RealitySucksRP free scripts on Tebex"></a>
-  <a href="https://reality-sucks-rp-webstore.tebex.io/"><img src="https://img.shields.io/badge/SHOP-FULL%20TEBEX%20STORE-111111?style=for-the-badge" alt="Browse RealitySucksRP Tebex Store"></a>
-  <a href="https://realitysucksrp.github.io/"><img src="https://img.shields.io/badge/VISIT-WEBSITE-0f6fff?style=for-the-badge" alt="Visit RealitySucksRP website"></a>
-  <a href="https://discord.gg/e9V3rPHySx"><img src="https://img.shields.io/badge/JOIN-DISCORD-5865F2?style=for-the-badge" alt="Join RealitySucksRP Discord"></a>
+  <img src="artwork/rs-streetdice-scene.png" alt="RS StreetDice promotional scene artwork" width="900">
 </p>
 
-> I build my own FiveM gameplay systems and complete server setups including shops, weapons, phones, racing, customs, garages, zombie apocalypse systems, warfare, Phantom encounters and UI.
+<p align="center">
+  <a href="https://github.com/RealitySucksRP/rs-streetdice-street-craps/archive/refs/heads/main.zip"><img src="https://img.shields.io/badge/DOWNLOAD-FREE%20SOURCE-ff6a00?style=for-the-badge" alt="Download RS StreetDice source"></a>
+  <a href="https://reality-sucks-rp-webstore.tebex.io/"><img src="https://img.shields.io/badge/EXPLORE-TEBEX%20STORE-242424?style=for-the-badge" alt="RealitySucksRP Tebex store"></a>
+  <a href="https://www.youtube.com/@RealitySucksRP"><img src="https://img.shields.io/badge/WATCH-YOUTUBE%20CHANNEL-c21d28?style=for-the-badge" alt="RealitySucksRP YouTube"></a>
+</p>
 
-RS StreetDice is a mobile street-craps roleplay resource for FiveM. Players can start a dice circle almost anywhere, wait for The Bank to walk in, place RIDE or FADE action, and shoot server-authoritative dice with visible animations, crowd reactions and clear UI guidance.
+Build a pop-up street-dice scene anywhere in your FiveM city. A Bank NPC walks in to handle the action while players choose RIDE or FADE, throw animated dice and react to the live outcome. The game is designed strictly for **fictional in-game currency and roleplay**, not real-money wagering.
 
-**This resource is for fictional roleplay using in-game currency only. It is not intended for real-life gambling, real-money betting, cryptocurrency wagering, cash-out systems or illegal gambling activity.**
+**[Get the free source](https://github.com/RealitySucksRP/rs-streetdice-street-craps/archive/refs/heads/main.zip)** · [RealitySucksRP Tebex store](https://reality-sucks-rp-webstore.tebex.io/) · [YouTube channel](https://www.youtube.com/@RealitySucksRP) · [Discord](https://discord.gg/e9V3rPHySx)
+
+## At a glance
+
+| | |
+|---|---|
+| Version | `0.3.19-test` (resource manifest) |
+| Play style | Multiplayer street-dice roleplay with Bank NPC and RIDE / FADE sides |
+| World effects | Throw animations, physical dice where supported, crowd reactions |
+| Frameworks | QBCore, Qbox, ESX and standalone test mode via included detection |
+| Starting a game | `/streetdice` or configured item |
+| Customization | Rules, money limits, NPC Bank and optional replaceable OGG audio |
+| Download | Public source via **Code → Download ZIP** (no separate release asset) |
+
+## Artwork gallery
+
+| StreetDice scene | Promotional artwork |
+|:--:|:--:|
+| <img src="artwork/rs-streetdice-scene.png" width="440" alt="RS StreetDice scene artwork"> | <img src="artwork/rs-streetdice-kofi-card.png" width="440" alt="RS StreetDice promotional card"> |
+
+These are included repository artwork files, not claimed in-game screenshots.
+
+## Video and store links
+
+Browse [RealitySucksRP on YouTube](https://www.youtube.com/@RealitySucksRP) for FiveM previews and the [official Tebex store](https://reality-sucks-rp-webstore.tebex.io/) for other resources. A dedicated StreetDice YouTube preview and a dedicated Tebex product URL could not be verified, so neither is represented as an official project-specific link.
 
 ## Gameplay
 
@@ -101,12 +116,6 @@ This resource is open source. You are encouraged to study it, fork it, improve i
 
 If you use or expand it, please credit **RealitySucksRP** and link back to the original repository when possible.
 
-## Complete FiveM Servers For Sale
+## More RealitySucksRP projects
 
-I love making scripts and running wild in GTA, but I also enjoy building complete servers. I use tested RealitySucksRP systems and configure the build around the owner's gameplay, framework, economy, theme and direction.
-
-**Website:** https://realitysucksrp.github.io/
-
-**Tebex:** https://reality-sucks-rp-webstore.tebex.io/
-
-**Discord:** https://discord.gg/e9V3rPHySx
+Browse the [RealitySucksRP Tebex store](https://reality-sucks-rp-webstore.tebex.io/), [free-script collection](https://reality-sucks-rp-webstore.tebex.io/category/free-scripts) or [RealitySucksRP YouTube videos](https://www.youtube.com/@RealitySucksRP). For support, join [Discord](https://discord.gg/e9V3rPHySx).
